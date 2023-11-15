@@ -5,6 +5,7 @@
 - [JavaScript](#JavaScript)
 - [PHP](#PHP)
 - [Server](#Server)
+- [System](#System)
 ---
 ### CSS
 
@@ -17,5 +18,10 @@
 
 
 ### Server
+
+
+### System
+- [What is Clock Rate of CPU](notes/System/What is Clock Rate of CPU)
+- [Why CPU Cannot Have 4 Threads or Even More](notes/System/Why CPU Cannot Have 4 Threads or Even More)
 
 
