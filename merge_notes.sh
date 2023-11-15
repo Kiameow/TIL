@@ -11,7 +11,7 @@ if [ ! -d "$input_folder" ]; then
 fi
 
 # 清空输出文件
-> "$output_file"
+echo "#TIL" > "$output_file"
 
 # 循环读取文件夹中的子文件夹
 for subfolder in "$input_folder"/*; do
