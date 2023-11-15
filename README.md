@@ -1,21 +1,21 @@
 # TIL
 > Today I Learned
-## Categories
-- CSS
-- JavaScript
-- PHP
-- Server
+### Categories
+- [CSS](#CSS)
+- [JavaScript](#JavaScript)
+- [PHP](#PHP)
+- [Server](#Server)
 ---
-## CSS
+### CSS
 
 
-## JavaScript
-- note1.md
+### JavaScript
+- [note1](notes/JavaScript/note1.md)
 
 
-## PHP
+### PHP
 
 
-## Server
+### Server
 
 

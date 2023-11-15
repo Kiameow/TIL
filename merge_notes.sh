@@ -15,12 +15,13 @@ echo "# TIL" > "$output_file"
 echo "> Today I Learned" >> "$output_file"
 
 # create index
-echo "## Categories" >> "$output_file"
+echo "### Categories" >> "$output_file"
 for subfolder in "$input_folder"/*; do
   # 检查是否为子文件夹
   if [ -d "$subfolder" ]; then
     # 输出子文件夹标题到输出文件
-    echo "- $(basename "$subfolder")" >> "$output_file"
+    subfoldername=$(basename "$subfolder")
+    echo "- ["$subfoldername"](#"$subfoldername")" >> "$output_file"
   fi
 done
 
@@ -31,14 +32,18 @@ for subfolder in "$input_folder"/*; do
   # 检查是否为子文件夹
   if [ -d "$subfolder" ]; then
     # 输出子文件夹标题到输出文件
-    echo "## $(basename "$subfolder")" >> "$output_file"
+    subfoldername=$(basename "$subfolder")
+    echo "### "$subfoldername"" >> "$output_file"
     
     # 循环读取子文件夹中的文件
     for file in "$subfolder"/*; do
       # 检查是否为文件
       if [ -f "$file" ]; then
         # 输出文件名到输出文件
-        echo "- $(basename "$file")" >> "$output_file"
+	filefull=$(basename -- "$file")
+	filename="${filefull%.*}"
+      
+	echo "- ["$filename"](notes/"$subfoldername"/"$filefull")" >> "$output_file"
       fi
     done
     
