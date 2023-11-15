@@ -1,4 +1,11 @@
-#TIL
+# TIL
+> Today I Learned
+## Categories
+- CSS
+- JavaScript
+- PHP
+- Server
+---
 ## CSS
 
 

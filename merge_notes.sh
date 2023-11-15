@@ -11,7 +11,20 @@ if [ ! -d "$input_folder" ]; then
 fi
 
 # 清空输出文件
-echo "#TIL" > "$output_file"
+echo "# TIL" > "$output_file"
+echo "> Today I Learned" >> "$output_file"
+
+# create index
+echo "## Categories" >> "$output_file"
+for subfolder in "$input_folder"/*; do
+  # 检查是否为子文件夹
+  if [ -d "$subfolder" ]; then
+    # 输出子文件夹标题到输出文件
+    echo "- $(basename "$subfolder")" >> "$output_file"
+  fi
+done
+
+echo "---" >> "$output_file"
 
 # 循环读取文件夹中的子文件夹
 for subfolder in "$input_folder"/*; do
@@ -34,5 +47,6 @@ for subfolder in "$input_folder"/*; do
   fi
 done
 
-echo "合并完成！输出文件：$output_file"
+echo "Congratulations to your progress!"
+echo "Done! output file：$output_file"
 
