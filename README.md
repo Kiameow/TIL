@@ -11,7 +11,7 @@
 
 
 ### JavaScript
-- [note1](notes/JavaScript/note1.md)
+- [Note1](notes/JavaScript/note1.md)
 
 
 ### PHP
@@ -21,7 +21,7 @@
 
 
 ### System
-- [What is Clock Rate of CPU](notes/System/What is Clock Rate of CPU.md)
-- [Why CPU Cannot Have 4 Threads or Even More](notes/System/Why CPU Cannot Have 4 Threads or Even More.md)
+- [What Is Clock Rate Of CPU](notes/System/What-is-Clock-Rate-of-CPU.md)
+- [Why CPU Cannot Have 4 Threads Or Even More](notes/System/Why-CPU-Cannot-Have-4-Threads-or-Even-More.md)
 
 

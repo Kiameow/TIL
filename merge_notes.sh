@@ -42,8 +42,10 @@ for subfolder in "$input_folder"/*; do
         # 输出文件名到输出文件
 	filefull=$(basename -- "$file")
 	filename="${filefull%.*}"
-      
-	echo "- ["$filename"](notes/"$subfoldername"/"$filefull")" >> "$output_file"
+        listname=$(echo $filename | tr '-' ' ')
+	listname=$(echo $listname | tr '_' ' ')
+	listname=$(echo $listname | sed 's/\b\(.\)/\u\1/g')
+	echo "- ["$listname"](notes/"$subfoldername"/"$filefull")" >> "$output_file"
       fi
     done
     
