@@ -21,7 +21,7 @@
 
 
 ### System
-- [What is Clock Rate of CPU](notes/System/What is Clock Rate of CPU)
-- [Why CPU Cannot Have 4 Threads or Even More](notes/System/Why CPU Cannot Have 4 Threads or Even More)
+- [What is Clock Rate of CPU](notes/System/What is Clock Rate of CPU.md)
+- [Why CPU Cannot Have 4 Threads or Even More](notes/System/Why CPU Cannot Have 4 Threads or Even More.md)
 
 
