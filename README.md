@@ -11,7 +11,7 @@
 
 
 ### JavaScript
-- [Note1](notes/JavaScript/note1.md)
+- [Recommended Programming Style](notes/JavaScript/recommended-programming-style.md)
 
 
 ### PHP
