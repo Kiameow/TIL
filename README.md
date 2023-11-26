@@ -11,7 +11,9 @@
 
 
 ### JavaScript
+- [Different Ways To Make Swap](notes/JavaScript/different-ways-to-make-swap.md)
 - [Recommended Programming Style](notes/JavaScript/recommended-programming-style.md)
+- [Write A Better Typeof Function](notes/JavaScript/write-a-better-typeof-function.md)
 
 
 ### PHP
