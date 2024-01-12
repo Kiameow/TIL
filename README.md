@@ -17,6 +17,8 @@
 
 ### JavaScript
 - [Different Ways To Make Swap](notes/JavaScript/different-ways-to-make-swap.md)
+- [Higher Order Function In Array](notes/JavaScript/higher-order-function-in-array.md)
+- [Lexing Scope](notes/JavaScript/lexing-scope.md)
 - [Recommended Programming Style](notes/JavaScript/recommended-programming-style.md)
 - [Write A Better Typeof Function](notes/JavaScript/write-a-better-typeof-function.md)
 
